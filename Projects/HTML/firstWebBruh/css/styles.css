@@ -1,0 +1,30 @@
+/*for index.html*/
+
+/*header*/
+h1 {
+  /*font-color: green;*/
+}
+.title {
+	font-style: BOLD;
+	font-stretch: extra-expanded;
+	font-color: green;
+}
+
+/*navigation - could be done before the header*/
+
+
+
+/*main*/
+.intro {
+	font-style: italic;
+  	padding: 20%;
+  	text-align: center;
+}
+.description {
+  	font-color: red;
+	font-size: 1rem;
+	padding: 5;
+}
+.more {
+  
+}

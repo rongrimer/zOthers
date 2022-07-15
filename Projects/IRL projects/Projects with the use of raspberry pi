@@ -1,0 +1,20 @@
+Projects with the use of raspberry pi
+- set up a motion sensor for the open back garage area with rasbperry pi 3
+	> add temperature, humidity, light (for adjusting camera focus and saturation), and camera as well  
+	> use MSQT (Message Queuing Telemetry Transport) to communicate to other IoT devices
+	> set up a notification to send to a server log and as a text message
+	>
+
+
+- set up a pi hole and other projects (tbd) with raspberry pi zero
+
+- set up multiples types of servers to practice and learn
+	> usually need one physical hardware for each type of server, ex. web server and database server
+	> also set up Fail2ban especially (web server specifically) when you have these servers accessible publicly in the internet like through SSH
+
+other side/etc. projects:
+-  set up a media centre (Kodi, Plex, and other alternatives), alongside with retropie 		and recalbox
+	>
+
+-
+- creating your own discord bot using rpi (even though there are free discord bots available online)
