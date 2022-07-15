@@ -1,0 +1,94 @@
+# Python notes:
+# Beginner - basics/fundamentals
+
+# Datatypes
+
+	# String - list of characters or words
+		len is used to find the length of a string #
+			len("This is a string") # => 16, this also included the spaces
+	# boolean - 
+
+
+# Variables*
+
+
+
+
+# Operators*
+
+
+
+
+
+# Control Flow (if/else)
+# Loops and Iterables
+
+	
+	# Nested-Loop Algorithm (using nested for loop: n^2) -
+		#ex:
+			
+
+
+
+# Data Structures*
+# Functions
+# Methods*
+# File IO
+
+
+
+
+
+
+
+
+
+
+
+# Intermediate - Mostly object oriented programming
+
+# Classes
+# Objects
+# Inheritance
+# Comprehensions
+# Lambda functions
+# Collections module
+# Map and Filter
+# *args & **kwargs
+# Module Creation
+# PIP
+# Async IO
+
+
+
+
+# Etc/Extras/Advanced
+
+# Decorators
+# Generators
+
+
+
+# Context Managers
+# Metaclasses
+# Concurrency
+# Parallelism
+# Packages
+# Cython
+
+
+
+
+# Project related
+
+# SRS - Software Requirement Specification
+# Your own website (practically using django)
+
+
+
+# Libraries
+
+# Scikit-learn - more on machine learning
+# Django - Web development
+# Flash - Web development
+#

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en=CA">
+
+<!--Elements and Attributes
+		Elements						Attributes (most used)
+		- text headers: <h1>-<h6>		- align: align
+		- paragraph: <p>
+		- unordered list: <ul>
+		- ordered list: <ol>
+		- list element: <Li>
+		- image: <img>				->	- source: <src>, alt: <alternate text>,
+										  height, width 
+		- divider: <div>
+		- text span: <span>
+		- button: <button>
+		- input:
+		- label:
+
+	Global elements: id, class, style, data-x
+
+	Definitions:
+	- Text header tags define HTML headings <h1> being the most important heading and <h6> being the least important heading (also larger to smallest text). Needs to have closing tag (ex. </h1>).
+		Align attribute can only be used on HTML and need to be on CSS if using HTML5. Values for align attribute; right, left, centre, justify. (<)
+	- Paragraph 
+	
+	-
+
+
+	*paragraphs are usually under text headers
+
+	
+
+	Tags
+		Phrase tags: bold, italic, preformatted text, emphasized text, marked text, strong text,
+			text abbreviation, acronym, quoting text, double quotations, computer code (uses
+			monospaced font, kinda like the fonts on programming), program output (output from
+			programming/code), address text, etc.
+		 
+
+	- Preformatted text <pre> displays fixed-width font (usually Courier) and it also preserves both
+	spaces and line breaks.
+		The width attribute specifies the maximum number of characters per line. The value will be a
+		number.
+
+
+
+
+
+
+		 -->
+
+	
+	<!--external CSS - using an external CSS file - by using the link element with rel attribute and along with the href attribute (hyperlink)-->
+
+	<!--Document tags: head, body, title -->
+	<head>
+		<!--meta tag us used to specify the page description like the author of the
+		document, last modifier, and other metadata of this code/document/file. Metadata
+		will not be displayed on the page, also it is only machine parasable-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<!--example of external CSS-->
+		<link rel="stylesheet" type="type/css" href="1stStyles.css">
+		<!--link tag with rel and href attributes-->
+
+		<title>Yee boi! This is shown on the tab bar.</title>
+
+		<!--Internal CSS is used here - using a <style> element in the <head> 			tag/section. This will define a style for a single (current) HTML page within a <style> tag. CSS syntax is used here!-->
+		<style>
+			body {background-color: black;font-size: 100%/* great solution for font sizing across on all browsers*/;}
+			h1 {color:grey; text-align:center;font-size: 2.1em/*em can be substitute to px; px/16=em*/;}
+			p {color: blue; border: 2px dotted yellow /*!important*/;}
+		/*the (!important) is a rule that will always be applied no matter where the rule appears in the CSS. Can be used to override priority of CSS cascades.*/
+			div {border: 5px solid orange; color:white; }
+
+		/*embedded style sheets or using the class attribute - check the class attribute on the html body*/
+			.color {
+				color:Red;
+			}
+			.fontSize {
+				font-size:130%;
+			}
+			.fontType {
+				font-family:courier;
+			}
+			.alignCenter {
+				text-align:center;
+			}
+
+
+		/*it is recommended for best practices to put the stylesheets on top. also to use one stylesheet so that the css file get cached by browser which will make the page load faster!*/
+		</style>
+
+	</head>
+
+	<!--body tag contains the contents of html page; image, lists, etc.-->
+	<body>
+		<!---->
+		<header>
+
+
+		</header>
+
+		<!--1st Header and Paragraph-->
+		<h1>This is header space sitting on the body, aligned in the center</h1>
+		<p><!--font-->paragraph under the header!</p>
+
+
+		<!-- 2nd Header and Paragraph-->
+
+		<!--Inline CSS is used here - using the style attribute in HTML will affect the tag they're written in. ONLY DO INLINE STYLING ON HTML FOR LAST OPTION!!! or if the content is dynamic!-->
+		<h2 style="color:lightblue;">Second header space!</h2>
+		<p>paragraph for second header </p>
+
+
+		<!--Used different attributes on one tag. Possible to do by using 				semi colons-->
+		<p style="color:yellow;border: 1px solid white !important;"> Rule numero uno - There are no more zero days. What's a zero day? A zero day is when you don't do a single fucking thing towards whatever dream or goal or want or whatever that you got going on. No more zeros. I'm not saying you gotta bust an essay out everyday, that's not the point. The point I'm trying to make is that you have to make yourself, promise yourself, that the new SYSTEM you live in is a NON-ZERO system. Didnt' do anything all fucking day and it's 11:58 PM? Write one sentence. One pushup. Read one page of that chapter. One. Because one is non zero. You feel me? When you're in the super vortex of being bummed your pattern of behaviour is keeping the vortex goin, that's what you're used to. Turning into productivity ultimate master of the universe doesn't happen from the vortex. It happens from a massive string of CONSISTENT NON ZEROS. That's rule number one. Do not forget. </p>
+
+		<p style="border:none;padding:20px; ">
+La deuxieme regle - yeah i learnt french. its a canadian thing. please excuse the lack of accent graves, but lemme get into rule number 2. BE GRATEFUL TO THE 3 YOU'S. Uh what? 3 me's? That sounds like mumbo jumbo bullshit. News flash, there are three you's homeslice. There's the past you, the present you, and the future you. If you wanna love someone and have someone love you back, you gotta learn to love yourself, and the 3 you's are the key. Be GRATEFUL to the past you for the positive things you've done. And do favours for the future you like you would for your best bro. Feeling like shit today? Stop a second, think of a good decision you made yesterday. Salad and tuna instead of Big Mac? THANK YOU YOUNGER ME. Was yesterday a nonzero day because you wrote 200 words (hey, that's all you could muster)? THANK YOU YOUNGER ME. Saved up some coin over time to buy that sweet thing you wanted? THANK YOU. Second part of the 3 me's is you gotta do your future self a favour, just like you would for your best fucking friend (no best friend? you do now. You got 2. It's future and past you). Tired as hell and can't get off reddit/videogames/interwebs? fuck you present self, this one's for future me, i'm gonna rock out p90x Ab Ripper X for 17 minutes. I'm doing this one for future me. Alarm clock goes off and bed is too comfy? fuck you present self, this one's for my best friend, the future me. I'm up and going for a 5 km run (or 25 meter run, it's gotta be non zero). MAKE SURE YOU THANK YOUR OLD SELF for rocking out at the end of every.single.thing. that makes your life better. The cycle of doing something for someone else (future you) and thanking someone for the good in your life (past you) is key to building gratitude and productivity. Do not doubt me. Over time you should spread the gratitude to others who help you on your path.
+		</p>
+
+		<div>
+
+		<!--Renders as emphasized text-->
+			<em>Emphasized text</em><br>
+		<!--Defines important text-->
+			<strong>Strong text</strong><br>
+		<!--Defines a piece of computer code-->
+			<code>A piece of computer code</code><br>
+		<!--Defines sample output from a computer program-->
+			<samp>Sample output from a computer program</samp><br>
+		<!--Defines keyboards input-->
+			<kbd>Keyboard input</kbd><br>
+		<!--Defines a variable-->
+			<var>Variable</var>
+		<div>
+
+
+		<!--Can't do Style element on div tag/section, unless it will be used/run on HTML5 with scoped attribute. See more about scoped attribute.-->
+		<div style="background-color:white; padding:90px">
+			<h2 style="color:olive;">Add more!</h2>
+
+		<!--class attribute used here on the span tag - can use multiple-->
+		<p style="color:black;">insert more advice here from <span class= "color fontSize fontType;">Reddit</span><p><br>
+		<img src="" alt="">
+
+		<!--tag for forced font type (BOLD) -->
+			<a>insert <b>HYPERBRUH</b> here (it's hyperlink xD)</a>
+		</div>
+
+		<br>
+
+		<div style="background-color:none;border:none;">agdaga </div>
+
+		<br>
+
+		<div style="background-color:grey; border:none;">End<!--<p>End</p>--></div>
+
+		<div style="background-color:red; border: 0.5em solid green;">Notes
+			<!--<p>Notes</p>-->
+		</div>
+
+		<br>
+
+		<div style="padding:10px; background-color:red; border-top: 0.5em;border: 0.25em solid white; text-align:center;">R
+		</div>
+		<div style="padding:10px; background-color:orange; border: 0.25em solid white; text-align:center;">A
+		</div>
+		<div style="padding:10px; background-color:yellow; border: 0.25em solid white; text-align:center;">I
+		</div>
+		<div style="padding:10px; background-color:green; border: 0.25em solid white; text-align:center;">N
+		</div>
+		<div style="padding:10px; background-color:blue; border: 0.25em solid white; text-align:center;">B
+		</div>
+		<div style="padding:10px; background-color:#4B0082; border: 0.25em solid white; text-align:center;">O
+		</div>
+		<div style="padding:10px; background-color:violet; border: 0.25em solid white; text-align:center;">W
+		</div>
+
+
+	</body>
+
+</html>
+
+<!--HTML5 introduces more descriptive HTML tags. These include header, footer, nav, video, article, section and many more/others.
+	- this tags make an HTML easier to read, and also help with Search Engine Optimization (SEO) and accessibility.
+	- header
+	- footer
+	- nav
+	- video
+	- article
+	- section
+
+    Other elements;
+	- img ~ src attribute must be used at the same time when using the img element. This element is also self-closing, meaning it doesn't need a closing tag.
+
+
+
+
+	-->
