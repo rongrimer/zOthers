@@ -2,7 +2,9 @@ Using git
 - Specifically moving (or updating the file from a local repository to go to remote repository, in this case it's the repository on your github account.)
 
 - The rough steps/sequence of this is: 
-	- to initialize your local repository (by going to your directory/folder on the git bash)
-	- then adding the file so you can update it when you do that commit (adding doesn't really do anything, it just puts the added file to a "staging area" where if you want to update/send the added file, you need to do git commit)
+	- to initialize your local repository (by going to your directory/folder on the git bash): then run $git init
+	- then adding the file <$git add [directory or filename]> so you can update it when you do that commit (adding doesn't really do anything, it just puts the added file to a "staging area" where if you want to update/send the added file, you need to do git commit): <$git commit -m "then your message">
 	- then you do commit to capture/save the file's currently staged changes (doing git add will place the file on the staging area). This is where you also make comments on your changes or updates on the file.
 	- git push will upload/move the commits (the updated file) from your local repository (from pc) to your remote repository (which is your remote repository in your github account)
+	
+	*- Also need to identify the user who pushing and fetching files from repos: <$git config --global user.email "your@example.com"> and <$git config --global user.name "Your Name">. Omit --global to set identity only to the current repo you're working in.
